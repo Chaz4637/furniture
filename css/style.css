@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body{
+	font-family: 'PT Sans', sans-serif; /* copy paste theo ten font chu từ site Google cua font */
+	font-size: 16px;
+	margin: 0;
+	color: #454545;
+}
+.top-bar {
+	min-height: 60px;
+	width: 100%;
+	line-height: 60px;
+	color: #957576;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.nav ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #A9A7A7;
+}
+.icon a {
+	padding: 10px 10px;
+	text-decoration: none;
+	color: #3C3A3A;
+}
+
+.item {
+	position: relative;
+}
+.caption{
+	width: 30%;
+	text-align: left;
+	color: antiquegray;
+	position: absolute;
+	top: 20%; /*tang giam tuy thuoc*/
+	left: 5%; /*Cach 1: caption width la 30% > de o middle thi (100-30)/2*/
+}
+.caption h1{
+	font-size: 70px; /*cho text to hon*/
+	font-weight: 900;
+	margin-bottom: -50px;
+	color: #945236;
+}
+.caption h2 {
+	font-size: 40px;
+	margin-bottom: 40px;
+	color: #D9B597;
+	font-weight: 100;
+}
+.button-shop {
+	padding: 15px 20px;
+	border: 3px solid #945236;
+	color: #945236;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 30px;
+	background-color: transparent;
+}
+
+.gach-chan {
+	border-bottom: 3px solid darkred;
+	font-size: 30px;
+}
+.ten {
+	font-weight: bold;
+	font-size: 17px;
+}
+.gia {
+	color: darkred;
+	font-weight: bold;
+}
+#new .vien {
+	width: 100%;
+	border: 1px solid darkred;
+	padding: 15px;
+	border-radius: 8px;
+	position: relative;
+	overflow: hidden; /*move icon hide so voi box chair*/
+}
+#new .social {
+	position: absolute;
+	width: 80%;
+	height: 40px;
+	left: 10%; /*canh cho cac icon nam giua box cha*/
+	top: -10%; /*hide di cac icon*/
+	display:flex;
+	justify-content: space-around;
+	transition: all 1s; /*hide cac icon*/
+}
+#new .social a {
+	height: 40px;
+	width: 40px;
+	background-color: darkred;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center; /*cho vong tron va icon nam giua tam hinh tron*/
+	text-decoration: none;
+	color: white;
+}
+#new .social a:hover {
+	background-color: #E4E4E4;
+	color: darkred;
+}
+#new .vien:hover .social {
+	top: 40%;
+	
+}
+
+#product {
+	width: 100%;
+	min-height: 600px;
+	background-image: url("../images/bg2.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+}
+.padding-top-30 {
+	padding-top: 30px; /*khoang ho Product Feature text va vien tren cua container*/
+}
+.vien-white {
+	width: 100%;
+	text-align: center;
+	border: 1px solid white;
+	padding: 30px;
+}
+
+.vien-white a{
+	color: darkred;
+	text-decoration: none;
+}
+.vien-white a:hover {
+	color: white;
+}
+.text-red {
+	color: darkred;
+}
+
+#contact {
+	width: 100%;
+	min-height: 500px;
+	background-image: url( "../images/Banner2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+.box {
+	padding: 40px;
+	box-shadow: 5px 5px 5px gray;
+	border: 1px solid #E8E8E8;
+}
+.form-control {
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.blog-text-1 {
+	color: darkred;
+	font-weight: 5;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 0px;
+}
+.blog-text-2 {
+	color: darkred;
+	font-weight: 5;
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+
+
+
